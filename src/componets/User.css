@@ -1,0 +1,46 @@
+.user_body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.user_playlist_container{
+    width: 500px;
+    height: 380px;
+    background-color: #0B0513;
+    border-radius: 10px;
+}
+
+.user_youtube_icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    background-color: #704897;
+    border-radius: 50%;
+    margin-top: 5vh;
+}
+
+.icon{
+    width: 30px;
+    height: 30px;
+    color: white;
+
+}
+
+.arrow{
+    color: #704897;
+    margin-top: 3vh;
+    width: 30px;
+    height: 50px;
+}

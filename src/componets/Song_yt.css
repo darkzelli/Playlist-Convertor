@@ -1,0 +1,28 @@
+.song_body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.song_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 325px;
+    height: 60px;
+    background-color: #FF8E8D;
+    border-radius: 10px;
+    margin-top: 25px;
+}
+
+.song_list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.song_thumbnail{
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+}

@@ -1,0 +1,54 @@
+@import url('https://rsms.me/inter/inter.css');
+
+.spotify_body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.spotify_container_un{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 260px;
+    height: 55px;
+    border-radius: 25px;
+    background-color: #704897;
+    color: white;
+    font-family: 'Inter var', sans-serif;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.spotify_container_cn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55px;
+    height: 55px;
+    background-color: #3E364A;
+    border-radius: 50%;
+}
+
+.spotify_icon_un{
+    color: #1ED760;
+    width: 30px;
+    height: 30px;
+    padding-right: .5vw;
+}
+
+.spotify_icon_cn{
+    color: #1ED760;
+    width: 30px;
+    height: 30px;
+}
+
+.spotify_auth{
+    margin-right: 1vh;
+}
+
+.spotify_top{
+    display: flex;
+}
+

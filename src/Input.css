@@ -1,0 +1,69 @@
+.input_input{
+    border: none;
+    outline: none;
+    caret-color: auto;
+    background-color: transparent;
+    width: 90%;
+    height: 90%;
+    color: white;
+}
+
+.input_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3E364A;
+    width: 550px;
+    height: 55px;
+    border-radius: 5px;
+    border-radius: 25px;
+}
+
+.input_input::placeholder{
+    color: white;
+    font-size: 15px;
+    opacity: 40%;
+}
+
+.input_list_yt{
+    margin-top: 2vh;
+}
+
+.no_convert_btn{
+    font-family: inter;
+    font-weight: 700;
+    letter-spacing: 3px;
+    font-size: 20px;
+    color: white;
+    margin-top: 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 75PX;
+    border-radius: 15px;
+    background-color: #3E364A;
+}
+
+.can_convert_btn{
+    font-family: inter;
+    font-weight: 700;
+    letter-spacing: 3px;
+    font-size: 20px;
+    color: white;
+    margin-top: 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 75PX;
+    border-radius: 15px;
+    background-color: #1ED760;
+}
+
+.input_body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
